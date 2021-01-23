@@ -1,0 +1,131 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace
+}
+.message {
+    position: absolute;
+    right: 5px;
+    bottom:10px;
+    width: 400px;
+    border: 1px solid green;
+}
+.message span {
+    padding: 40px;
+    display: block;
+    text-align: center;
+}
+.message button {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    display: inline-block;
+    background-color: transparent;
+    padding: 2px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.row {
+    padding: 10px 5px;
+    text-align: center;
+}
+.box {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #bdc3c7;
+    width: 600px;
+}
+.box > input {
+    width: 400px;
+    height: 32px;
+    padding-left: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    outline: none;
+}
+.submit {
+    line-height: 35px;
+    background-color: #27ae60;
+    text-decoration: none;
+    height: 35px;
+    display: inline-block;
+    width: 100px;
+    color: white;
+    transition: 0.1s;
+    border-radius: 5px;
+}
+.submit:hover {
+    background-color: #2ecc71;
+}
+.list-table {
+    padding: 10px 5px;
+}
+.table {
+    width: 100%;
+    line-height: 35px;
+}
+.table, thead,tr,tbody,td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+.title-table {
+    background-color: #2c3e50;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.table td {
+    padding: 5px;
+
+}
+.dp-none {
+    display: none;
+}
+.edit {
+    line-height: 35px;
+    background-color: #2980b9;
+    text-decoration: none;
+    height: 35px;
+    display: inline-block;
+    width: 100px;
+    color: white;
+    transition: 0.1s;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.delete {
+    line-height: 35px;
+    background-color: #c0392b;
+    text-decoration: none;
+    height: 35px;
+    display: inline-block;
+    width: 100px;
+    color: white;
+    transition: 0.1s;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.edit:hover {
+    background-color: #3498db;
+}
+.delete:hover {
+    background-color: #e74c3c;
+}
+.table tbody > tr:nth-child(even) {
+    background-color: #7f8c8d;
+}
+.table tbody > tr:hover {
+    background-color: #bdc3c7;
+}
